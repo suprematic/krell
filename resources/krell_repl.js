@@ -3,7 +3,7 @@ import TcpSocket from "react-native-tcp-socket";
 import { npmDeps } from "./npm_deps.js";
 import { krellNpmDeps } from "./krell_npm_deps.js";
 import { assets } from "./krell_assets.js";
-import AsyncStorage from "@react-native-community/async-storage";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 var CONNECTED = false;
 var RECONNECT_INTERVAL = 3000;
